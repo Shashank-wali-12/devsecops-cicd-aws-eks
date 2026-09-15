@@ -1,0 +1,7 @@
+[devops_servers]
+devops_server ansible_host=YOUR_SERVER_IP
+
+[devops_servers:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=~/.ssh/devops-project.pem
+ansible_python_interpreter=/usr/bin/python3
