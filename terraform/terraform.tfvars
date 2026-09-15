@@ -7,8 +7,8 @@ project_name = "devsecops-cicd"
 vpc_cidr = "10.0.0.0/16"
 
 availability_zones = [
-  "ap-south-1a",
-  "ap-south-1b"
+  "us-east-1a",
+  "us-east-1b"
 ]
 
 eks_cluster_version = "1.31"
