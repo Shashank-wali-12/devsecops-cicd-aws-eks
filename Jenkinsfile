@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "YOUR_DOCKERHUB_USERNAME/devsecops-app"
+        DOCKER_IMAGE = "shashiwali/devsecops-app"
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
 
